@@ -1,0 +1,97 @@
+body { 
+  font-family: 'Urbanist' , sans-serif ;
+  font-size: large;
+  font-weight: 500;
+}
+html {scroll-behavior: smooth;}
+
+ h1 {
+  text-align: center;
+  font-weight: bolder;
+
+}
+
+ h2 {text-align: center;}
+
+
+body {
+  background-image: url('FD1.jpg');
+  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;}
+  
+.main{
+  padding: 20%;
+  padding-top: 0%;
+  padding-bottom: 2%;
+}
+
+  img {
+    display:block;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: auto;
+    opacity: 0.9;
+  }
+img:hover{
+  
+  transform: scale(1.15);
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+  cursor: pointer;
+
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.container{
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+}
+
+ul.a{
+  list-style-type: disc;
+  padding: 10px;
+  width: 200px;
+}
+
+
+li a {
+  display: block;
+  padding: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  text-decoration:none;
+  color: black;
+  font-weight: 600;
+  padding: 10px;
+}
+
+li a:hover{
+  background-color: rgba(34, 125, 54, 0.435);
+  color: #ffffff;
+  transform: scale(1.11);
+  transition: all 0.2s ease-in;
+}
+li a:active{
+  transform: scale(0.6);
+  transition: all 0.1s ease-in;
+}
+
